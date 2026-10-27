@@ -1,0 +1,8 @@
+{
+  "name": "Blooms Crochet",
+  "description": "Artisanal handmade crochet flowers, gajras, bandanas, bag charms, accessories, and thoughtful custom gifts. Crafted with love and bloomed with care.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
