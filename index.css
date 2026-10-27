@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+
+  --color-cream-50: #fcfbf9;
+  --color-cream-100: #faf7f2;
+  --color-cream-200: #f4efe6;
+  --color-cream-300: #eae2d3;
+  --color-cream-400: #ded3c0;
+
+  --color-rose-50: #fdf5f6;
+  --color-rose-100: #fce8eb;
+  --color-rose-200: #f8cfd7;
+  --color-rose-300: #f0a8b7;
+  --color-rose-400: #e2788d;
+  --color-rose-500: #cb536b;
+  --color-rose-600: #ab3a51;
+  --color-rose-900: #4a1823;
+
+  --color-sage-50: #f3f6f3;
+  --color-sage-100: #e5ece6;
+  --color-sage-200: #cfdccf;
+  --color-sage-400: #8ea890;
+  --color-sage-500: #6f8a72;
+  --color-sage-600: #556e58;
+  --color-sage-900: #263428;
+
+  --color-yarn-dark: #2c2523;
+  --color-yarn-muted: #6e655f;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #faf7f2;
+  color: #2c2523;
+}
+
+/* Subtle floral grain / texture overlay */
+.bg-warm-pattern {
+  background-color: #faf7f2;
+  background-image: radial-gradient(#e8dfd3 0.75px, transparent 0.75px), radial-gradient(#e8dfd3 0.75px, #faf7f2 0.75px);
+  background-size: 30px 30px;
+  background-position: 0 0, 15px 15px;
+}
